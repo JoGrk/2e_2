@@ -55,6 +55,17 @@ calculateSupply(17,6)
 // Pass the radius to the function.
 // Calculate the area based on the radius, and output "The area is NN".
 
+console.log("zadanie_4")
+const pi=3.14
+function calcCircumfrence(radius){
+    console.log(`The circumference is ${2*pi*radius}`)
+}
+calcCircumfrence(5)
+
+function calcArea(radius){
+   console.log(`The area is ${(pi*radius**2)}`)
+}
+calcArea(7)
 // 5. 
 
 // It's hot out! Let's make a converter based on the steps here.
@@ -67,4 +78,16 @@ calculateSupply(17,6)
 
 // Now store a fahrenheit temperature into a variable.
 // Convert it to celsius and output "NN°F is NN°C."
+let celsius=30
+let  fahrenhei=27
 
+console.log('zadanie5')
+function celsiusToFahrenheit(celsius){
+    return celsius*9/5+32
+}
+console.log(`${celsius}°C is ${celsiusToFahrenheit(celsius)}°F`)
+
+function fahrenheitToCelecius(fahrenheit){
+    return (fahrenheit-32)*5/9
+}
+console.log(`${fahrenhei}°F is ${fahrenheitToCelecius(fahrenhei)}°C.`)
